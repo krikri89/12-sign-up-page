@@ -1,4 +1,4 @@
-# Yoga
+# Sign Up Page
 
 _35 group website project_
 
