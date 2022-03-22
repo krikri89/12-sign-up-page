@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Sign Up 
+=======
+# Sign Up Page
+>>>>>>> 6b444307ce1136823ce6ca0b9d09aecf4366f589
 
 _35 group website project_
 
