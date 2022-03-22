@@ -17,8 +17,23 @@ body {
     width: 40%;
     float: left;
     padding: 40px;
-    background-color: blue;
+    background-color: rgb(3, 105, 180);
 }
+.main-title {
+    width: 100%;
+    margin-bottom: 350px;
+    color: white;
+    font-size: 40px;
+    font-weight: normal;
+}
+.botttom-links {
+    color: white;
+}
+
+.bottom-links > .link {
+    color: white;
+} 
+
 .right-column {
     width: 60%;
     float: right;
