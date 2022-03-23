@@ -16,8 +16,14 @@ body {
 .left-column {
     width: 40%;
     float: left;
+    color: white;
     padding: 40px;
     background-color: rgb(3, 105, 180);
+    background-image: url(../img/mountain.png);
+    padding: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .main-title {
     width: 100%;
