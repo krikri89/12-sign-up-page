@@ -1,21 +1,36 @@
 .form {
-    width: 100%;
-    }
-    .form > .form-row {
-    width: 100%;
-    margin-bottom: 30px;
-    }
-    .form > .form-row:last-of-type {
-        margin-bottom: 0px;
-    
-        }
-    
-    .form > .form-row > label {
-    width: 100%;
-    display: inline-block;
-    margin-bottom: 5px;
-    
-    }
-    .form > .form-row > input {
-    width: 100%;
-    }
+  width: 100%;
+}
+.form > .form-row {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.form > .form-row:last-of-type {
+  margin-bottom: 0px;
+}
+
+.form > .form-row > label {
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.form > .form-row > input {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #777;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.form span {
+line-height: 40px;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.form a {
+    line-height: 40px;
+    text-decoration: none;
+}
+.form a:hover {
+    text-decoration: underline;
+}
