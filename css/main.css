@@ -1,41 +1,55 @@
-
 .container {
-    width: 800px;
-    margin-top: 100px;
-    margin-left: calc(50% - 400px);
+  width: 800px;
+  margin-top: 100px;
+  margin-left: calc(50% - 400px);
+  display: inline-block;
+  position: relative;
 }
 .left-column {
-    width: 40%;
-    float: left;
-    color: white;
-    padding: 40px;
-    background-color: rgb(3, 105, 180);
-    background-image: url(../img/mountain.png);
-    padding: 40px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  width: 40%;
+  color: white;
+  padding: 40px;
+  background-color: rgb(3, 105, 180);
+  background-image: url(../img/mountain.png);
+  padding: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  bottom: 30px;
+  left: 0;
+  top: 16px;
 }
 .main-title {
-    width: 100%;
-    margin-bottom: 350px;
-    color: white;
-    font-size: 40px;
-    font-weight: normal;
+  width: 100%;
+  margin-bottom: 350px;
+  color: white;
+  font-size: 40px;
+  font-weight: normal;
 }
 .botttom-links {
-    color: white;
+  color: white;
 }
 
 .bottom-links > .link {
-    color: white;
-} 
+  color: white;
+}
 
 .right-column {
-    width: 60%;
-    float: left;
-    padding: 60px;
-    background-color: white;
+  width: 60%;
+  float: right;
+  padding: 60px;
+  background-color: white;
+  position: relative;
 }
 .close {
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 54px;
+  position: absolute;
+  top: 0;
+  right: 0px;
+  color: grey;
 }

@@ -20,3 +20,6 @@
   background-color: blue;
   background: linear-gradient(90deg, #638DBB 0%, #2D3B57 100%);
 }
+.bottom-links {
+    position: absolute;
+}
