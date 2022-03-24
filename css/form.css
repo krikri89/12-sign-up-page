@@ -21,6 +21,9 @@
   padding-top: 10px;
   padding-bottom: 10px;
 }
+.form > .form-row > .input:focus-visible {
+    outline: 1px solid blue;
+}
 .form span {
 line-height: 40px;
 margin-left: 10px;
@@ -33,4 +36,5 @@ margin-right: 10px;
 }
 .form a:hover {
     text-decoration: underline;
+    columns: red;
 }
