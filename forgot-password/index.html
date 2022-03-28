@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
-    <title>Sign in</title>
+    <title>Sign up</title>
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -29,12 +29,12 @@
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/button.css">
     <link rel="stylesheet" href="../css/form.css">
-    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="../css/main.css" />
   </head>
   <body>
     <main class="container">
       <div class="left-column">
-        <h1 class="main-title">Sign in</h1>
+        <h1 class="main-title">Forgot-password</h1>
         <footer class="bottom-links">
           <a class="link" href="#">Privacy policy</a>
           &amp;
@@ -42,20 +42,16 @@
         </footer>
       </div>
       <div class="right-column">
-        <div class="close">X</div>
+        <div class="close"> <a href="#">X</a> </div>
         <form class="form">
           <div class="form-row">
-            <label for="Username class="label">Username</label>
-            <input type="text" class="input" required>
+            <label for="email" class="label">Email</label>
+            <input id="email" type="email" class="input"required>
           </div>
-          <div class="form-row">
-            <label for="pass" class="label">Password</label>
-            <input id="pass" type="password" class="input">
-          </div>
-          <div class="form-row">
-            <button type="submit" class="btn">Sign in</button>
+            <div class="form-row">
+            <button type="submit" class="btn">Remind</button>
             <span>or</span>
-            <a href="http://localhost:3014/">Sign up</a>
+            <a href="../">Sign up</a>
           </div>
         </form>
         </div>
